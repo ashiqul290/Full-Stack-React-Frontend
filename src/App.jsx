@@ -5,6 +5,11 @@ import Rootlayout from './layout/Rootlayout';
 import SlingleViewPage from './Components/SlingleViewPage';
 import Shop from './page/Shop/Shop';
 import ShopCart from './page/Shop/ShopCart';
+import ShopCheckout from './page/Shop/ShopCheckout';
+import OrderReceived from './page/Shop/OrderReceived';
+import OrderTracking from './page/Shop/OrderTracking';
+import Login from './page/auth/Login';
+import Register from './page/auth/Register';
 
 function App() {
 let router = createBrowserRouter([
@@ -16,8 +21,21 @@ let router = createBrowserRouter([
       { path: "shop", Component: Shop },
       { path: "single-view-page", Component: SlingleViewPage },
       { path: "shop-cart", Component: ShopCart },
+      { path: "shop-checkout", Component: ShopCheckout },
+      { path: "shop-confirmation", Component: OrderReceived },
+      { path: "order-tracking", Component: OrderTracking },
       
     ],
+  },
+  {
+    path: "/login",
+    Component: Login,
+   
+  },
+  {
+    path: "/register",
+    Component: Register,
+   
   },
 ]);
 
