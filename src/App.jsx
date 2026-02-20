@@ -23,8 +23,7 @@ let router = createBrowserRouter([
       { path: "shop-cart", Component: ShopCart },
       { path: "shop-checkout", Component: ShopCheckout },
       { path: "shop-confirmation", Component: OrderReceived },
-      { path: "order-tracking", Component: OrderTracking },
-      
+      { path: "order-tracking", Component: OrderTracking }, 
     ],
   },
   {

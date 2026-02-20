@@ -40,7 +40,7 @@ let retingheandler = ()=>{
       {/* Description */}
       <div className={`${showDes? "block" : "hidden"} border border-gray-200 p-10`}>
         <h3 className="font-semibold text-lg">
-          Women Embroidered A-line Kurta
+          Lightweight Puffer Jacket With a Hood
         </h3>
         <p className="text-gray-500 mt-2">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
