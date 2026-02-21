@@ -674,7 +674,7 @@ let retingheandler = ()=>{
         <p className="text-gray-500 mt-2">There are no reviews yet.</p>
 
         {/* Review Form */}
-        <div className="border border-green-500 mt-6 p-6 rounded-md">
+        <div className="  mt-6 p-6 rounded-md">
           <h4 className="font-semibold text-green-600 mb-4">
             Women Embroidered A-line Kurta
           </h4>
@@ -734,7 +734,7 @@ let retingheandler = ()=>{
           </div>
 
           {/* Submit */}
-          <button className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition">
+          <button className="bg-black text-white px-6 py-2 rounded-md hover:bg-black/85 transition">
             SUBMIT
           </button>
         </div>

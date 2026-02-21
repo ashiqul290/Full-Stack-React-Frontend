@@ -10,6 +10,7 @@ import OrderReceived from './page/Shop/OrderReceived';
 import OrderTracking from './page/Shop/OrderTracking';
 import Login from './page/auth/Login';
 import Register from './page/auth/Register';
+import Lookbook from './page/Lookbook';
 
 function App() {
 let router = createBrowserRouter([
@@ -24,6 +25,7 @@ let router = createBrowserRouter([
       { path: "shop-checkout", Component: ShopCheckout },
       { path: "shop-confirmation", Component: OrderReceived },
       { path: "order-tracking", Component: OrderTracking }, 
+      { path: "lookbook", Component: Lookbook }, 
     ],
   },
   {
@@ -40,6 +42,7 @@ let router = createBrowserRouter([
 
   return (
    <>
+
     <RouterProvider router={router} />
    </>
   )

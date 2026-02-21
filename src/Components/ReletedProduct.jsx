@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import { FaRegHeart } from "react-icons/fa";
 import bannerIMG from "../assets/image 103.png";
+import { Link } from "react-router";
 
 const ReletedProduct = () => {
   return (
@@ -26,9 +27,12 @@ const ReletedProduct = () => {
                 <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
                   ADD TO CART
                 </button>
-                <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
+                <Link
+                  to={"/single-view-page"}
+                  className="text-white font-medium text-[14px] py-3 px-6"
+                >
                   QUICK VIEW
-                </button>
+                </Link>
               </div>
             </div>
             <div className="">
@@ -56,9 +60,12 @@ const ReletedProduct = () => {
                 <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
                   ADD TO CART
                 </button>
-                <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
+                <Link
+                  to={"/single-view-page"}
+                  className="text-white font-medium text-[14px] py-3 px-6"
+                >
                   QUICK VIEW
-                </button>
+                </Link>
               </div>
             </div>
             <div className="">
@@ -86,9 +93,12 @@ const ReletedProduct = () => {
                 <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
                   ADD TO CART
                 </button>
-                <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
+                <Link
+                  to={"/single-view-page"}
+                  className="text-white font-medium text-[14px] py-3 px-6"
+                >
                   QUICK VIEW
-                </button>
+                </Link>
               </div>
             </div>
             <div className="">
@@ -116,9 +126,12 @@ const ReletedProduct = () => {
                 <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
                   ADD TO CART
                 </button>
-                <button className="text-white font-medium text-[14px] py-3 cursor-pointer px-6">
+                <Link
+                  to={"/single-view-page"}
+                  className="text-white font-medium text-[14px] py-3 px-6"
+                >
                   QUICK VIEW
-                </button>
+                </Link>
               </div>
             </div>
             <div className="">
