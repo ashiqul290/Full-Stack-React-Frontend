@@ -11,7 +11,7 @@ const Banner = () => {
         <h4 className=' font-medium text-[14px]'>SUMMER 2020</h4>
         <h1 className=' my-3 w-197 font-bold text-[70px]'>Hello New Season</h1>
         <p className=' text-[16px]'>LIMITED TIME OFFER - UP TO 60% OFF & FREE SHIPPING</p>
-        <button className=' text-[14px] font-medium px-11 py-5 bg-white mt-8'>DISCOVER NOW</button>
+        <button className=' text-[14px] font-medium px-11 py-5 bg-white mt-8 hover:bg-black hover:text-white duration-500 cursor-pointer'>DISCOVER NOW</button>
     </div>
     <div className="">
         <img src={bannerIMG} alt="benner" />
