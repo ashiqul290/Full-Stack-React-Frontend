@@ -90,7 +90,7 @@ const OURTRENDYPRODUCTS = () => {
                 </div>
               ))}
             </div>
-            <div className=" text-center mt-[71px]">
+            <div className=" text-center mt-17.75">
               <Link to={`/shop?category=${category}`}>
                 <button className="bg-black cursor-pointer text-white font-medium px-3 py-2">
                   SEE ALL PRODUCT
