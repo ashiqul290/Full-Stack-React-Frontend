@@ -11,6 +11,8 @@ import OrderTracking from './page/Shop/OrderTracking';
 import Login from './page/auth/Login';
 import Register from './page/auth/Register';
 import Lookbook from './page/Lookbook';
+import { Collection } from './page/Collection';
+import { Journal } from './Journal';
 
 function App() {
 let router = createBrowserRouter([
@@ -26,6 +28,9 @@ let router = createBrowserRouter([
       { path: "shop-confirmation", Component: OrderReceived },
       { path: "order-tracking", Component: OrderTracking }, 
       { path: "lookbook", Component: Lookbook }, 
+      { path: "collection", Component: Collection }, 
+      { path: "journal", Component: Journal }, 
+    
     ],
   },
   {
