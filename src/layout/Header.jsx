@@ -14,7 +14,8 @@ const Header = () => {
     { nav: "COLLECTION", link: "collection" },
     { nav: "JOURNAL", link: "journal" },
     { nav: "LOOKBOOK", link: "lookbook" },
-    { nav: "PAGES", link: "pages" },
+    { nav: "Blog", link: "blog" },
+    
   ];
 
   return (

@@ -13,6 +13,7 @@ import Register from './page/auth/Register';
 import Lookbook from './page/Lookbook';
 import { Collection } from './page/Collection';
 import { Journal } from './Journal';
+import { Blog } from './Components/Blog';
 
 function App() {
 let router = createBrowserRouter([
@@ -30,6 +31,7 @@ let router = createBrowserRouter([
       { path: "lookbook", Component: Lookbook }, 
       { path: "collection", Component: Collection }, 
       { path: "journal", Component: Journal }, 
+      { path: "blog", Component: Blog }, 
     
     ],
   },
